@@ -1,0 +1,30 @@
+digraph "tt_um_ex_drosen766" {
+label="tt_um_ex_drosen766";
+rankdir="LR";
+remincross=true;
+n1 [ shape=diamond, label="_unused", color="black", fontcolor="black"];
+n2 [ shape=octagon, label="rst_n", color="black", fontcolor="black"];
+n3 [ shape=octagon, label="clk", color="black", fontcolor="black"];
+n4 [ shape=octagon, label="ena", color="black", fontcolor="black"];
+n5 [ shape=octagon, label="uio_oe", color="black", fontcolor="black"];
+n6 [ shape=octagon, label="uio_out", color="black", fontcolor="black"];
+n7 [ shape=octagon, label="uio_in", color="black", fontcolor="black"];
+n8 [ shape=octagon, label="uo_out", color="black", fontcolor="black"];
+n9 [ shape=octagon, label="ui_in", color="black", fontcolor="black"];
+c13 [ shape=record, label="{{<p10> A|<p11> B}|$1\n$add|{<p12> Y}}",  ];
+v0 [ label="1'0" ];
+x1 [shape=point, ];
+v2 [ label="8'00000000" ];
+x3 [shape=point, ];
+v4 [ label="8'00000000" ];
+x5 [shape=point, ];
+x1:e -> n1:w [color="black", fontcolor="black", label=""];
+x3:e -> n5:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+x5:e -> n6:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+n7:e -> c13:p11:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+c13:p12:e -> n8:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+n9:e -> c13:p10:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+v0:e -> x1:w [color="black", fontcolor="black", label=""];
+v2:e -> x3:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+v4:e -> x5:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+}
