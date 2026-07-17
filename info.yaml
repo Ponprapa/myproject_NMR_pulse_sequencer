@@ -1,5 +1,5 @@
 # Tiny Tapeout project information
-project: Myproject_test
+project: project
   title:        "myproject_NMR"      # Project title
   author:       "Ponprapa"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
