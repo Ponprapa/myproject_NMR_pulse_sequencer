@@ -28,7 +28,7 @@ module tb ();
 `endif
 
   // Replace tt_um_example with your module name:
-  tt_um_ponprapa_nmr_pulse_sequencer (
+  tt_um_ponprapa_nmr_pulse_sequencer user_project (
 
       // Include power ports for the Gate Level test:
 `ifdef GL_TEST
